@@ -1,8 +1,8 @@
 my:
   greeting: Hello world from confgi server
-  list.values: One, Two, Three
+  list.values: One, Two, Three, Four
   
 db:
-  connection: {connectionString: 'http:___', username: 'foo', password: 'pass'}
+  connection: {connectionString: 'from confgi server', username: 'www', password: 'qqq'}
   host: 192.168.0.14
-  port: 3401
+  port: 6541
